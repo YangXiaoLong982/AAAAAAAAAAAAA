@@ -3,6 +3,7 @@ const howard = document.querySelector('#howard');
 const toggleButton = document.querySelector('#toggle');
 const wat = document.querySelector('#watson');
 
+wat.style.display = 'none';
 
 deleteButton.addEventListener('click',() => {
     howard.style.display = 'none';
